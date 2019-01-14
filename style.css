@@ -1,0 +1,84 @@
+
+
+header {
+  width: 100%;
+}
+
+#mySketch {
+  display: block;
+  margin: auto;
+  width: 800px;
+  height: 250px;
+}
+
+h1 {
+  text-align: center;
+  /* position: relative; */
+  color: black;
+  letter-spacing: 1em;
+  font-size: 3em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#name1 {
+  top: -200px;
+}
+
+#name2 {
+  left: 65px;
+  top: -250px;
+}
+
+#columns {
+  display: grid;
+  grid-template-columns: 1 fr 1 fr 1 fr;
+  margin: auto;
+}
+
+section section {
+  margin: auto;
+  border-style: dashed;
+  padding: 20px;
+  width: 200px
+}
+
+h2 {
+  text-align: center;
+}
+
+/* #section1 {
+  grid-column: 1;
+}
+
+#section2 {
+  grid-column: 2;
+}
+
+#section3 {
+  grid-column: 3;
+} */
+
+li a {
+  text-decoration: none;
+}
+
+footer {
+  position:fixed;
+  bottom:0;
+  width:100%;
+  text-align:center;
+}
+
+footer nav {
+  margin-top: 10%;
+  background-color: pink;
+}
+
+footer nav ul li a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
