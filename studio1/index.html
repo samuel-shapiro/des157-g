@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- =============== START HEAD =============== -->
+<head>
+  <meta charset="utf-8">
+  <title> Artist Name Generator </title>
+  <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet" />
+  <link href="style.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+<!-- end header -->
+
+
+
+<body>
+<!-- =============== START HEADER  =============== -->
+  <header>
+    <h1> Artist Name Generator </h1>
+  </header>
+<!-- end header -->
+
+<!-- =============== START FORM SECTION =============== -->
+    <section id="formSection">
+      <form>
+
+        <div>
+          <label for="favGenre"> Favorite Music Genre </label> <br>
+            <input type="text" name="favGenre" id="favGenre" required>
+        </div>
+
+        <div>
+          <label for="firstAdj"> First Adjective That Comes to Mind </label> <br>
+            <input type="text" name="firstAdj" id="firstAdj" required>
+        </div>
+
+        <div>
+          <label for="favFlower"> Favorite Flower </label> <br>
+            <input type="text" name="favFlower" id="favFlower" required>
+        </div>
+
+        <div>
+          <label for="favColor"> Favorite Color </label> <br>
+            <input type="text" name="favColor" id="favColor" required>
+        </div>
+
+        <div>
+          <label for="momName"> Your Mother's Name </label> <br>
+            <input type="text" name="momName" id="momName" required>
+        </div>
+
+        <div>
+          <label for="firstWord"> First Word that Comes to Mind </label> <br>
+            <input type="text" name="firstWord" id="firstWord" required>
+        </div>
+
+
+        <input type="submit" value="submit" id="submit">
+        <input type="reset" value="reset" id="reset">
+
+      </form>
+    </section>
+<!-- end form section -->
+
+<!-- =============== START RESULT SECTION =============== -->
+<section id="msgSection">
+  <h2 id="myMsg"></h2>
+  <img src="images/border.png" alt="border" title="border">
+</section>
+
+<!-- end result section -->
+
+<!-- =============== START FOOTER SECTION =============== -->
+  <footer>
+    <a href="https://validator.w3.org/check?uri=referer">Valid HTML 5</a>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a>
+  </footer>
+<!-- end footer section -->
+  <script src=”script.js”> </script>
+</body>
+
+</html>
