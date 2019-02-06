@@ -1,75 +1,122 @@
 * {
   box-sizing: border-box;
-  width: device-width;
-  height: device-height;
 }
 
-body{
+body {
   max-width: 1366px;
-  max-height: 768px;
-  font-family: 'Raleway', sans-serif;
+  height: 100vh;
+  font-family: "Raleway", sans-serif;
 }
 
-header{
+header {
   background-color: lime;
-  padding: 2em;
-  border-color: black;
+  padding: 0.5em;
 }
 
-h1{
-  text-align: center;
+#artnm {
+  display: inline;
+  font-size: 2.7em;
 }
 
-h1:hover{
-  color:white;
+#gen {
+  color: cadetBlue;
+  display: inline;
+  font-size: 3em;
 }
 
-#formSection{
+#gen:hover {
+  color: pink;
+}
+
+h1:hover {
+  color: white;
+}
+
+#formSection {
   background-color: lightblue;
   padding-left: 5em;
-  text-align:left;
+  text-align: left;
+  position: relative;
 }
 
-form{
+form {
   padding-top: 3em;
   padding-bottom: 3em;
 }
 
-div{
-  padding-top:0.5em;
+div {
+  padding-top: 0.5em;
 }
 
 input[type="text"] {
   background-color: yellow;
+  width: 28%;
 }
 
-#msgSection{
-  position: absolute;
-  left:60%;
-  bottom:10%;
-  width: 30%;
-  height: 30%;
-  text-align: center;
+#submit {
+  margin-top: 1em;
+  margin-left: 7%;
 }
 
-h2{
+#reset {
+  margin-top: 2em;
+}
+
+#msgSection {
   position: absolute;
-  right:45%;
-  bottom: 68%;
+  right: 4.5em;
+  width: 47%;
+  height: 78%;
+  transform: translateY(-50%);
+  top: 50%;
+}
+
+#myMsg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+h2 {
+  position: absolute;
+  left: 40%;
+  top: 40%;
   z-index: 1;
 }
 
-h2:hover{
-  color:red;
+h2:hover {
+  color: red;
 }
 
-section img{
- position: absolute;
-  width:110%;
-  bottom: 1em;
-  right: 15%;
-}
-
-footer{
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   text-align: center;
+}
+
+ul {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }

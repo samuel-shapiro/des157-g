@@ -2,6 +2,7 @@
 <html lang="en">
 
 <!-- =============== START HEAD =============== -->
+
 <head>
   <meta charset="utf-8">
   <title> Artist Name Generator </title>
@@ -14,69 +15,64 @@
 
 
 <body>
-<!-- =============== START HEADER  =============== -->
+  <!-- =============== START HEADER  =============== -->
   <header>
-    <h1> Artist Name Generator </h1>
+    <h1 id="artnm"> Artist Name </h1>
+    <h1 id="gen"> Generator </h1>
   </header>
-<!-- end header -->
+  <!-- end header -->
 
-<!-- =============== START FORM SECTION =============== -->
-    <section id="formSection">
-      <form>
-
-        <div>
-          <label for="favGenre"> Favorite Music Genre </label> <br>
-            <input type="text" name="favGenre" id="favGenre" required>
-        </div>
-
-        <div>
-          <label for="firstAdj"> First Adjective That Comes to Mind </label> <br>
-            <input type="text" name="firstAdj" id="firstAdj" required>
-        </div>
-
-        <div>
-          <label for="favFlower"> Favorite Flower </label> <br>
-            <input type="text" name="favFlower" id="favFlower" required>
-        </div>
-
-        <div>
-          <label for="favColor"> Favorite Color </label> <br>
-            <input type="text" name="favColor" id="favColor" required>
-        </div>
-
-        <div>
-          <label for="momName"> Your Mother's Name </label> <br>
-            <input type="text" name="momName" id="momName" required>
-        </div>
-
-        <div>
-          <label for="firstWord"> First Word that Comes to Mind </label> <br>
-            <input type="text" name="firstWord" id="firstWord" required>
-        </div>
-
-
-        <input type="submit" value="submit" id="submit">
-        <input type="reset" value="reset" id="reset">
-
-      </form>
+  <!-- =============== START FORM SECTION =============== -->
+  <section id="formSection">
+    <form>
+      <div>
+        <label for="favGenre"> Favorite Music Genre </label> <br>
+        <input type="text" name="favGenre" id="favGenre" required>
+      </div>
+      <div>
+        <label for="firstAdj"> First Adjective That Comes to Mind </label> <br>
+        <input type="text" name="firstAdj" id="firstAdj" required>
+      </div>
+      <div>
+        <label for="favFlower"> Favorite Flower </label> <br>
+        <input type="text" name="favFlower" id="favFlower" required>
+      </div>
+      <div>
+        <label for="favColor"> Favorite Color </label> <br>
+        <input type="text" name="favColor" id="favColor" required>
+      </div>
+      <div>
+        <label for="momName"> Your Mother's Name </label> <br>
+        <input type="text" name="momName" id="momName" required>
+      </div>
+      <div>
+        <label for="firstWord"> First Word that Comes to Mind </label> <br>
+        <input type="text" name="firstWord" id="firstWord" required>
+      </div>
+      <input type="submit" value="submit" id="submit">
+      <input type="reset" value="reset" id="reset">
+    </form>
+    <!-- =============== START RESULT SECTION =============== -->
+    <section id="msgSection">
+      <h2 id="myMsg"></h2>
+      <img src="images/border.png" alt="border">
     </section>
-<!-- end form section -->
-
-<!-- =============== START RESULT SECTION =============== -->
-<section id="msgSection">
-  <h2 id="myMsg"></h2>
-  <img src="images/border.png" alt="border" title="border">
-</section>
-
-<!-- end result section -->
-
-<!-- =============== START FOOTER SECTION =============== -->
+    <!-- end result section -->
+  </section>
+  <!-- end form section -->
+  <!-- =============== START FOOTER SECTION =============== -->
   <footer>
-    <a href="https://validator.w3.org/check?uri=referer">Valid HTML 5</a>
-    <a href="https://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a>
+    <nav>
+      <ul>
+        <li> <a href="mailto:&#099;&#111;&#110;&#099;&#101;&#114;&#110;&#105;&#110;&#103;&#112;&#108;&#097;&#110;&#116;&#115;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">
+            Email! </a> </li>
+        <li> <a href="https://validator.w3.org/check?uri=referer">Valid HTML 5</a> </li>
+        <li> <a href="https://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a> </li>
+      </ul>
+    </nav>
   </footer>
-<!-- end footer section -->
-  <script src=”script.js”> </script>
+  <!-- end footer section -->
+  <script src="script.js"></script>
 </body>
 
 </html>
